@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		855622F5209370A4008C2C5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 855622F4209370A4008C2C5D /* AppDelegate.m */; };
+		855622F8209370A4008C2C5D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 855622F7209370A4008C2C5D /* ViewController.m */; };
+		855622FB209370A4008C2C5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 855622F9209370A4008C2C5D /* Main.storyboard */; };
+		855622FD209370A5008C2C5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 855622FC209370A5008C2C5D /* Assets.xcassets */; };
+		85562300209370A5008C2C5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 855622FE209370A5008C2C5D /* LaunchScreen.storyboard */; };
+		85562303209370A5008C2C5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85562302209370A5008C2C5D /* main.m */; };
+		8556230D209370A5008C2C5D /* SensoroTheatreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8556230C209370A5008C2C5D /* SensoroTheatreTests.m */; };
+		85562318209370A5008C2C5D /* SensoroTheatreUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85562317209370A5008C2C5D /* SensoroTheatreUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85562309209370A5008C2C5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 855622E8209370A4008C2C5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 855622EF209370A4008C2C5D;
+			remoteInfo = SensoroTheatre;
+		};
+		85562314209370A5008C2C5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 855622E8209370A4008C2C5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 855622EF209370A4008C2C5D;
+			remoteInfo = SensoroTheatre;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		855622F0209370A4008C2C5D /* SensoroTheatre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SensoroTheatre.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		855622F3209370A4008C2C5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		855622F4209370A4008C2C5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		855622F6209370A4008C2C5D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		855622F7209370A4008C2C5D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		855622FA209370A4008C2C5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		855622FC209370A5008C2C5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		855622FF209370A5008C2C5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85562301209370A5008C2C5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85562302209370A5008C2C5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85562308209370A5008C2C5D /* SensoroTheatreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SensoroTheatreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8556230C209370A5008C2C5D /* SensoroTheatreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SensoroTheatreTests.m; sourceTree = "<group>"; };
+		8556230E209370A5008C2C5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85562313209370A5008C2C5D /* SensoroTheatreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SensoroTheatreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85562317209370A5008C2C5D /* SensoroTheatreUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SensoroTheatreUITests.m; sourceTree = "<group>"; };
+		85562319209370A5008C2C5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		855622ED209370A4008C2C5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85562305209370A5008C2C5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85562310209370A5008C2C5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		855622E7209370A4008C2C5D = {
+			isa = PBXGroup;
+			children = (
+				855622F2209370A4008C2C5D /* SensoroTheatre */,
+				8556230B209370A5008C2C5D /* SensoroTheatreTests */,
+				85562316209370A5008C2C5D /* SensoroTheatreUITests */,
+				855622F1209370A4008C2C5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		855622F1209370A4008C2C5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				855622F0209370A4008C2C5D /* SensoroTheatre.app */,
+				85562308209370A5008C2C5D /* SensoroTheatreTests.xctest */,
+				85562313209370A5008C2C5D /* SensoroTheatreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		855622F2209370A4008C2C5D /* SensoroTheatre */ = {
+			isa = PBXGroup;
+			children = (
+				855622F3209370A4008C2C5D /* AppDelegate.h */,
+				855622F4209370A4008C2C5D /* AppDelegate.m */,
+				855622F6209370A4008C2C5D /* ViewController.h */,
+				855622F7209370A4008C2C5D /* ViewController.m */,
+				855622F9209370A4008C2C5D /* Main.storyboard */,
+				855622FC209370A5008C2C5D /* Assets.xcassets */,
+				855622FE209370A5008C2C5D /* LaunchScreen.storyboard */,
+				85562301209370A5008C2C5D /* Info.plist */,
+				85562302209370A5008C2C5D /* main.m */,
+			);
+			path = SensoroTheatre;
+			sourceTree = "<group>";
+		};
+		8556230B209370A5008C2C5D /* SensoroTheatreTests */ = {
+			isa = PBXGroup;
+			children = (
+				8556230C209370A5008C2C5D /* SensoroTheatreTests.m */,
+				8556230E209370A5008C2C5D /* Info.plist */,
+			);
+			path = SensoroTheatreTests;
+			sourceTree = "<group>";
+		};
+		85562316209370A5008C2C5D /* SensoroTheatreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				85562317209370A5008C2C5D /* SensoroTheatreUITests.m */,
+				85562319209370A5008C2C5D /* Info.plist */,
+			);
+			path = SensoroTheatreUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		855622EF209370A4008C2C5D /* SensoroTheatre */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8556231C209370A5008C2C5D /* Build configuration list for PBXNativeTarget "SensoroTheatre" */;
+			buildPhases = (
+				855622EC209370A4008C2C5D /* Sources */,
+				855622ED209370A4008C2C5D /* Frameworks */,
+				855622EE209370A4008C2C5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SensoroTheatre;
+			productName = SensoroTheatre;
+			productReference = 855622F0209370A4008C2C5D /* SensoroTheatre.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85562307209370A5008C2C5D /* SensoroTheatreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8556231F209370A5008C2C5D /* Build configuration list for PBXNativeTarget "SensoroTheatreTests" */;
+			buildPhases = (
+				85562304209370A5008C2C5D /* Sources */,
+				85562305209370A5008C2C5D /* Frameworks */,
+				85562306209370A5008C2C5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8556230A209370A5008C2C5D /* PBXTargetDependency */,
+			);
+			name = SensoroTheatreTests;
+			productName = SensoroTheatreTests;
+			productReference = 85562308209370A5008C2C5D /* SensoroTheatreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		85562312209370A5008C2C5D /* SensoroTheatreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85562322209370A5008C2C5D /* Build configuration list for PBXNativeTarget "SensoroTheatreUITests" */;
+			buildPhases = (
+				8556230F209370A5008C2C5D /* Sources */,
+				85562310209370A5008C2C5D /* Frameworks */,
+				85562311209370A5008C2C5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85562315209370A5008C2C5D /* PBXTargetDependency */,
+			);
+			name = SensoroTheatreUITests;
+			productName = SensoroTheatreUITests;
+			productReference = 85562313209370A5008C2C5D /* SensoroTheatreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		855622E8209370A4008C2C5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Lucia Rodinò";
+				TargetAttributes = {
+					855622EF209370A4008C2C5D = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					85562307209370A5008C2C5D = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 855622EF209370A4008C2C5D;
+					};
+					85562312209370A5008C2C5D = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 855622EF209370A4008C2C5D;
+					};
+				};
+			};
+			buildConfigurationList = 855622EB209370A4008C2C5D /* Build configuration list for PBXProject "SensoroTheatre" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 855622E7209370A4008C2C5D;
+			productRefGroup = 855622F1209370A4008C2C5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				855622EF209370A4008C2C5D /* SensoroTheatre */,
+				85562307209370A5008C2C5D /* SensoroTheatreTests */,
+				85562312209370A5008C2C5D /* SensoroTheatreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		855622EE209370A4008C2C5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85562300209370A5008C2C5D /* LaunchScreen.storyboard in Resources */,
+				855622FD209370A5008C2C5D /* Assets.xcassets in Resources */,
+				855622FB209370A4008C2C5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85562306209370A5008C2C5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85562311209370A5008C2C5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		855622EC209370A4008C2C5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				855622F8209370A4008C2C5D /* ViewController.m in Sources */,
+				85562303209370A5008C2C5D /* main.m in Sources */,
+				855622F5209370A4008C2C5D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85562304209370A5008C2C5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8556230D209370A5008C2C5D /* SensoroTheatreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8556230F209370A5008C2C5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85562318209370A5008C2C5D /* SensoroTheatreUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8556230A209370A5008C2C5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 855622EF209370A4008C2C5D /* SensoroTheatre */;
+			targetProxy = 85562309209370A5008C2C5D /* PBXContainerItemProxy */;
+		};
+		85562315209370A5008C2C5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 855622EF209370A4008C2C5D /* SensoroTheatre */;
+			targetProxy = 85562314209370A5008C2C5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		855622F9209370A4008C2C5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				855622FA209370A4008C2C5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		855622FE209370A5008C2C5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				855622FF209370A5008C2C5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8556231A209370A5008C2C5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8556231B209370A5008C2C5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8556231D209370A5008C2C5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PSR678NF2B;
+				INFOPLIST_FILE = SensoroTheatre/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LuciaRodino.SensoroTheatre;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8556231E209370A5008C2C5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PSR678NF2B;
+				INFOPLIST_FILE = SensoroTheatre/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LuciaRodino.SensoroTheatre;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		85562320209370A5008C2C5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PSR678NF2B;
+				INFOPLIST_FILE = SensoroTheatreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LuciaRodino.SensoroTheatreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SensoroTheatre.app/SensoroTheatre";
+			};
+			name = Debug;
+		};
+		85562321209370A5008C2C5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PSR678NF2B;
+				INFOPLIST_FILE = SensoroTheatreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LuciaRodino.SensoroTheatreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SensoroTheatre.app/SensoroTheatre";
+			};
+			name = Release;
+		};
+		85562323209370A5008C2C5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PSR678NF2B;
+				INFOPLIST_FILE = SensoroTheatreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LuciaRodino.SensoroTheatreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SensoroTheatre;
+			};
+			name = Debug;
+		};
+		85562324209370A5008C2C5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PSR678NF2B;
+				INFOPLIST_FILE = SensoroTheatreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LuciaRodino.SensoroTheatreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SensoroTheatre;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		855622EB209370A4008C2C5D /* Build configuration list for PBXProject "SensoroTheatre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8556231A209370A5008C2C5D /* Debug */,
+				8556231B209370A5008C2C5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8556231C209370A5008C2C5D /* Build configuration list for PBXNativeTarget "SensoroTheatre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8556231D209370A5008C2C5D /* Debug */,
+				8556231E209370A5008C2C5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8556231F209370A5008C2C5D /* Build configuration list for PBXNativeTarget "SensoroTheatreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85562320209370A5008C2C5D /* Debug */,
+				85562321209370A5008C2C5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85562322209370A5008C2C5D /* Build configuration list for PBXNativeTarget "SensoroTheatreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85562323209370A5008C2C5D /* Debug */,
+				85562324209370A5008C2C5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 855622E8209370A4008C2C5D /* Project object */;
+}
