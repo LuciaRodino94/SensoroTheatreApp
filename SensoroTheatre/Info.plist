@@ -2,6 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Questo software richiede l&apos;autorizzazione per utilizzare i servizi di localizzazione per scoprire i beacon circostanti</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Questo software richiede l&apos;autorizzazione per utilizzare i servizi di localizzazione per scoprire i beacon circostanti</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Questo software richiede l&apos;autorizzazione per utilizzare i servizi di localizzazione, per scoprire i beacon circostanti</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>

@@ -7,9 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SBKBeacon.h"
+#import "SBKBeaconManager.h"
+#import "SBKBeaconManager+Cloud.h"
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIImageView *EmptyBG;
+@property (weak, nonatomic) IBOutlet UILabel *StartLabel;
+//@property (nonatomic, retain) IBOutlet UIImageView *imageToDisplay;
+@property (weak, nonatomic) IBOutlet UILabel *NoBeaconLabel;
 
 @end
 

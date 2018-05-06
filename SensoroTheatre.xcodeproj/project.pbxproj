@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85223FE5209B6B290004FAAE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85223FE4209B6B290004FAAE /* CoreGraphics.framework */; };
+		85223FE8209B6B810004FAAE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 855623382093724F008C2C5D /* Security.framework */; };
+		85223FE9209B6B8C0004FAAE /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8556233C20937264008C2C5D /* CoreBluetooth.framework */; };
+		85223FEC209B6B970004FAAE /* libSensoroBeaconKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8512E4B1209B19A8001EFB5E /* libSensoroBeaconKit.a */; };
 		855622F5209370A4008C2C5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 855622F4209370A4008C2C5D /* AppDelegate.m */; };
 		855622F8209370A4008C2C5D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 855622F7209370A4008C2C5D /* ViewController.m */; };
 		855622FB209370A4008C2C5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 855622F9209370A4008C2C5D /* Main.storyboard */; };
@@ -15,6 +19,8 @@
 		85562303209370A5008C2C5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85562302209370A5008C2C5D /* main.m */; };
 		8556230D209370A5008C2C5D /* SensoroTheatreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8556230C209370A5008C2C5D /* SensoroTheatreTests.m */; };
 		85562318209370A5008C2C5D /* SensoroTheatreUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85562317209370A5008C2C5D /* SensoroTheatreUITests.m */; };
+		8556233520937238008C2C5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8556233420937238008C2C5D /* Foundation.framework */; };
+		8556233720937243008C2C5D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8556233620937243008C2C5D /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8512E4B1209B19A8001EFB5E /* libSensoroBeaconKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSensoroBeaconKit.a; path = ../../SensoroTheatre/libSensoroBeaconKit.a; sourceTree = "<group>"; };
+		8512E4B2209B1A7C001EFB5E /* libSensoroBeaconKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSensoroBeaconKit.a; sourceTree = "<group>"; };
+		85223FE4209B6B290004FAAE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		85223FE6209B6B340004FAAE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		85223FEA209B6B940004FAAE /* libAWDProtobufBluetooth.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libAWDProtobufBluetooth.tbd; path = usr/lib/libAWDProtobufBluetooth.tbd; sourceTree = SDKROOT; };
 		855622F0209370A4008C2C5D /* SensoroTheatre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SensoroTheatre.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		855622F3209370A4008C2C5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		855622F4209370A4008C2C5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +62,22 @@
 		85562313209370A5008C2C5D /* SensoroTheatreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SensoroTheatreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85562317209370A5008C2C5D /* SensoroTheatreUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SensoroTheatreUITests.m; sourceTree = "<group>"; };
 		85562319209370A5008C2C5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85562326209371FB008C2C5D /* SBKConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBKConstants.h; path = "../../../Downloads/SDK-iOS-master/Sensoro Beacon Kit/Headers/SBKConstants.h"; sourceTree = "<group>"; };
+		85562327209371FB008C2C5D /* SBKBeaconManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBKBeaconManager.h; path = "../../../Downloads/SDK-iOS-master/Sensoro Beacon Kit/Headers/SBKBeaconManager.h"; sourceTree = "<group>"; };
+		85562328209371FB008C2C5D /* SBKBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBKBeacon.h; path = "../../../Downloads/SDK-iOS-master/Sensoro Beacon Kit/Headers/SBKBeacon.h"; sourceTree = "<group>"; };
+		85562329209371FB008C2C5D /* SBKError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBKError.h; path = "../../../Downloads/SDK-iOS-master/Sensoro Beacon Kit/Headers/SBKError.h"; sourceTree = "<group>"; };
+		8556232A209371FB008C2C5D /* SIKBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SIKBeacon.h; path = "../../../Downloads/SDK-iOS-master/Sensoro Beacon Kit/Headers/SIKBeacon.h"; sourceTree = "<group>"; };
+		8556232B209371FB008C2C5D /* SIKUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SIKUser.h; path = "../../../Downloads/SDK-iOS-master/Sensoro Beacon Kit/Headers/SIKUser.h"; sourceTree = "<group>"; };
+		8556232C209371FB008C2C5D /* SIKManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SIKManager.h; path = "../../../Downloads/SDK-iOS-master/Sensoro Beacon Kit/Headers/SIKManager.h"; sourceTree = "<group>"; };
+		8556232D209371FB008C2C5D /* SBKBeaconID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBKBeaconID.h; path = "../../../Downloads/SDK-iOS-master/Sensoro Beacon Kit/Headers/SBKBeaconID.h"; sourceTree = "<group>"; };
+		8556232E209371FB008C2C5D /* SBKBeaconManager+Cloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SBKBeaconManager+Cloud.h"; path = "../../../Downloads/SDK-iOS-master/Sensoro Beacon Kit/Headers/SBKBeaconManager+Cloud.h"; sourceTree = "<group>"; };
+		8556232F209371FC008C2C5D /* SIKError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SIKError.h; path = "../../../Downloads/SDK-iOS-master/Sensoro Beacon Kit/Headers/SIKError.h"; sourceTree = "<group>"; };
+		85562330209371FC008C2C5D /* SBKUnitConvertHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBKUnitConvertHelper.h; path = "../../../Downloads/SDK-iOS-master/Sensoro Beacon Kit/Headers/SBKUnitConvertHelper.h"; sourceTree = "<group>"; };
+		8556233420937238008C2C5D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8556233620937243008C2C5D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		855623382093724F008C2C5D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8556233A2093725A008C2C5D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8556233C20937264008C2C5D /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +85,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85223FEC209B6B970004FAAE /* libSensoroBeaconKit.a in Frameworks */,
+				85223FE9209B6B8C0004FAAE /* CoreBluetooth.framework in Frameworks */,
+				85223FE8209B6B810004FAAE /* Security.framework in Frameworks */,
+				85223FE5209B6B290004FAAE /* CoreGraphics.framework in Frameworks */,
+				8556233720937243008C2C5D /* UIKit.framework in Frameworks */,
+				8556233520937238008C2C5D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +111,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		85223FE3209B69900004FAAE /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
 		855622E7209370A4008C2C5D = {
 			isa = PBXGroup;
 			children = (
+				85562325209371AD008C2C5D /* Sensoro Beacon Kit */,
 				855622F2209370A4008C2C5D /* SensoroTheatre */,
 				8556230B209370A5008C2C5D /* SensoroTheatreTests */,
 				85562316209370A5008C2C5D /* SensoroTheatreUITests */,
 				855622F1209370A4008C2C5D /* Products */,
+				8556233320937238008C2C5D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +172,43 @@
 				85562319209370A5008C2C5D /* Info.plist */,
 			);
 			path = SensoroTheatreUITests;
+			sourceTree = "<group>";
+		};
+		85562325209371AD008C2C5D /* Sensoro Beacon Kit */ = {
+			isa = PBXGroup;
+			children = (
+				8512E4B1209B19A8001EFB5E /* libSensoroBeaconKit.a */,
+				85223FE3209B69900004FAAE /* Headers */,
+				85562328209371FB008C2C5D /* SBKBeacon.h */,
+				8556232D209371FB008C2C5D /* SBKBeaconID.h */,
+				85562327209371FB008C2C5D /* SBKBeaconManager.h */,
+				8556232E209371FB008C2C5D /* SBKBeaconManager+Cloud.h */,
+				85562326209371FB008C2C5D /* SBKConstants.h */,
+				85562329209371FB008C2C5D /* SBKError.h */,
+				85562330209371FC008C2C5D /* SBKUnitConvertHelper.h */,
+				8556232A209371FB008C2C5D /* SIKBeacon.h */,
+				8556232F209371FC008C2C5D /* SIKError.h */,
+				8556232C209371FB008C2C5D /* SIKManager.h */,
+				8556232B209371FB008C2C5D /* SIKUser.h */,
+			);
+			name = "Sensoro Beacon Kit";
+			path = SensoroTheatre;
+			sourceTree = "<group>";
+		};
+		8556233320937238008C2C5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85223FEA209B6B940004FAAE /* libAWDProtobufBluetooth.tbd */,
+				85223FE6209B6B340004FAAE /* XCTest.framework */,
+				85223FE4209B6B290004FAAE /* CoreGraphics.framework */,
+				8512E4B2209B1A7C001EFB5E /* libSensoroBeaconKit.a */,
+				8556233C20937264008C2C5D /* CoreBluetooth.framework */,
+				8556233A2093725A008C2C5D /* CoreLocation.framework */,
+				855623382093724F008C2C5D /* Security.framework */,
+				8556233620937243008C2C5D /* UIKit.framework */,
+				8556233420937238008C2C5D /* Foundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -373,6 +452,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -424,6 +504,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -440,6 +521,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = LuciaRodino.SensoroTheatre;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -457,6 +543,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = LuciaRodino.SensoroTheatre;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

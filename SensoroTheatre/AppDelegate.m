@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,25 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    /*Initialized UUID*/
+    NSUUID *uuid = [[NSUUID alloc] initWithUUIDString:@"23A01AF0-232A-4518-9C0E-323FB773F5EF"];
+    
+    SBKBeaconID *beaconID = [SBKBeaconID beaconIDWithProximityUUID:uuid];
+    
+    /*Start ranging*/
+    [[SBKBeaconManager sharedInstance] startRangingBeaconsWithID:beaconID
+                                               wakeUpApplication:YES];
+    /*Request authorization*/
+    [[SBKBeaconManager sharedInstance] requestAlwaysAuthorization];
+    
+    /*When a device shows up or disappear, the SDK will send SBKBeaconInRangeStatusUpdatedNotification*/
+    /*[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(beacon:) name:SBKBeaconInRangeStatusUpdatedNotification object:nil];*/
+    
+    /*Enable cloud service (upload sensor data, including battery status, UMM, etc.)。Without setup, it keeps in closed status as default. */
+    //[[SBKBeaconManager sharedInstance] setCloudServiceEnable:YES];
     // Override point for customization after application launch.
+    
     return YES;
 }
 
