@@ -6,9 +6,9 @@ This is an iOS app, using Sensoro beacon, made with Xcode.
 
 contacts:
 
-    linkedin: [Lucia Rodinò](https://www.linkedin.com/in/lucia-rodinò-b5019815b/)
+   linkedin: [Lucia Rodinò](https://www.linkedin.com/in/lucia-rodinò-b5019815b/)
     
-    mail: luciatomb@gmail.com
+   mail: luciatomb@gmail.com
     
 In this project I use Xcode for programming the app in Objective-C
 
